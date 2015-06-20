@@ -210,7 +210,7 @@ public class DbHelper extends SQLiteOpenHelper {
 
 
 
-        Question q8=new Question("xxxxxxxxxxxxxxxxxx?","xxxx","xxxxxx","N/A","xxxxxxxx");
+        Question q8=new Question("TestTest?","xxxx","xxxxxx","N/A","xxxxxxxx");
         this.putQuestionInDatabase(q8);
 
         Question q9=new Question("xxxxxxxxxxxxxxxxxx?","xxxx","xxxxxx","N/A","xxxxxxxx");
