@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2012 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Titles -->
+    <string name="app_name">BadENumbers</string>
+    <string name="title_template_step">No. <xliff:g id="step_number">%1$d</xliff:g></string>
+
+    <!-- Actions -->
+    <string name="action_previous">PREVIOUS</string>
+    <string name="action_next">Next</string>
+    <string name="action_finish">LAST</string>
+
+    <!-- Other strings -->
+    <string name="card_back_description"><![CDATA[Lorem ipsum dolor sit]]></string>
+    <string name="lorem_ipsum"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et magna ut erat elementum cursus in quis ipsum. Nam faucibus ultrices eros, vel tempor leo semper sit amet. Duis magna quam, congue vitae interdum nec, condimentum ut lectus. Sed commodo venenatis eros a dignissim. Nunc adipiscing turpis nec magna venenatis at ultricies ipsum bibendum. Sed volutpat urna quis nisi vulputate egestas. Etiam eu dui a enim lacinia dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\n\nPhasellus orci mi, eleifend nec congue id, volutpat at neque. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer semper velit vel leo rutrum sed fermentum elit porta.]]></string>
+    <string name="action_about">Abouth autor</string>
+    <string name="action_back">Back</string>
+    <string name="about_me_text">Developed by 2GiantTurtle.</string>
+    <string name="about_report_mail">Please report any errors on giant2turtle@gmail.com</string>
+    <string name="my_other_apps">Please check out my other apps on: market://search?q=pub:2GiantTurtle</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="str_next">Confirm your answer</string>
+    <string name="title_activity_result">Results!!!</string>
+    <string name="title_activity_main">Select</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_kviz_activiy_with_fragment">BadENumbers</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="play_quiz">Play Quiz</string>
+    <string name="checkBoxSaveThisCard">Save this card</string>
+    <string name="checkbox_card_saved">Card Saved</string>
+
+    <string-array name="questions" >
+
+
+
+    </string-array>
+
+</resources>

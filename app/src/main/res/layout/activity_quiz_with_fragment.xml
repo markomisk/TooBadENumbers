@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container_layout_OnActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    tools:context="com.giantturtle.badenumbersquiz.QuizActiviyWithFragment"
+    tools:ignore="MergeRootFrame"
+    android:background="@android:color/holo_blue_light"
+
+    >
+
+
+
+    <!-- Ovako dodajem fragment u aktivnost pomoću xml-a  -->
+    <!-- tools:layout="@layout/fragment_kviz" da prikeže preview fragmenta  -->
+    <!-- <fragment
+        tools:layout="@layout/fragment_kviz"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:name="com.giantturtle.badenumbersquiz.QuizFragment"
+        android:id="@+id/fragment"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" /> -->
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.giantturtle.badenumbersquiz.MainActivity">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pripremi se"
+        android:id="@+id/startPripremiSeButton"
+        android:onClick="startPripremiSeMethod"
+        android:layout_above="@+id/rangListaButton"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Još aplikacija"
+        android:id="@+id/goToMyPlaystoreButton"
+        android:onClick="josAplikacijaMethod"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/startPripremiSeButton"
+        android:layout_alignStart="@+id/startPripremiSeButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rang lista"
+        android:id="@+id/rangListaButton"
+        android:onClick="rangListaMethod"
+        android:layout_above="@+id/goToMyPlaystoreButton"
+        android:layout_alignRight="@+id/startPripremiSeButton"
+        android:layout_alignEnd="@+id/startPripremiSeButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fragmentKviz"
+        android:id="@+id/kvizFragmentActivitybutton"
+        android:onClick="goToKvizFragmentActivity"
+        android:layout_above="@+id/startPripremiSeButton"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

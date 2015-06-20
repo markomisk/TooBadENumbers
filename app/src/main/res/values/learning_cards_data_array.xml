@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+    <!-- TODO should put these text blocks into strings.xml  -->
+
+    <!-- main content of the learning cards, for heading, check the array below  -->
+    <!-- make sure to match the main content of the card with the heading -->
+    <!--also make sure that badENumbersCardArray and headingForBadENumbersArray have the same number of entries
+     or you'll get an arrayOutOfBounds exception -->
+    <!--maybe you could reference these values from some strings.xml file so it would be more readable
+    and easier for translation -->
+
+    <string-array name="badENumbersCardArray">
+
+        <!--colors -->
+
+        <item>E129 May have slightly less allergy/intolerance reaction by aspirin intolerant people and
+            asthmatics than most of the azo dyes, although those with skin sensitivities should be
+            careful. Allura red has also been connected with cancer in mice.
+        </item>
+
+
+        <item>Otherwise known as MSG, Monosodium Glutamate, E621 is a flavour enhancer that’s
+            commonly used to pep up food products and make them taste better. Unfortunately,
+            it is known to cause problems for some people – and certain people seem to more sensitive
+            to its effects than others. Amongst the known side effects, MSG can cause symptoms such
+            as headaches, nausea, dizziness, muscle pain, palpitations and even pain.</item>
+
+
+        <item>Aspartame, E951 is an artificial sweetener that’s commonly used as a sweetening ingredient.
+            In particular, it’s often found in products aimed at dieters or diabetics, such as desserts,
+            low-fat foods, low sugar drinks, snacks and sweets. It’s well known to be linked to problems
+            in people who suffer from the condition PKU, and they are well advised to avoid it completely.
+            But aspartame has become a concern to other people too and side effects, such as headaches,
+            have often been reported.</item>
+
+        <item>E211, sodium benzoate, is an E number that’s used as a preservative and is found in products
+            such as margarine, salad dressing, soy sauce, sweets and soft drinks. Studies have found
+            that it’s linked to hyperactivity in children, plus it may cause reactions in people have
+            allergic conditions or asthma.</item>
+
+        <item>E150d - Class IV caramel. It is mostly used in  products that has brown to black colour.
+            Soluble in water and with a specific, sometimes bitter, taste.Side effects are manifested
+            from the use of E150c and E150d, where intestinal problems may occur. Potentially CARCINOGENIC.
+            Due to the complex nature of the mixtures, toxicology tests are still being carried out.</item>
+
+        <item>E150c Ammonia caramel - <b>Class IV</b> caramel. It is mostly used in  products that has brown to black colour.
+            Soluble in water and with a specific, sometimes bitter, taste.Side effects are manifested
+            from the use of E150c and E150d, where intestinal problems may occur. Potentially CARCINOGENIC.
+            Due to the complex nature of the mixtures, toxicology tests are still being carried out.</item>
+
+
+        <item>E151 – brilliant black BN, E151 is a form of black synthetic dye that is used as a food
+            colouring in some products. However, concerns have been raised in other countries,
+            as it’s been linked to allergic reactions in some people. It is already banned in Australia,
+            Austria, America, Germany, Norway, Sweden, Switzerland, Belgium and France.</item>
+
+        <item>E133 – brilliant blue FCF, is another synthetic blue colouring dye, which adds a blue
+            colour to some products. Some people have been found to experience allergic reactions
+            after consuming products containing E133 and this E number is already banned in Austria,
+            Belgium, Denmark, France, Germany, Greece, Italy, Norway, Spain, Sweden and Switzerland.</item>
+
+        <item>E213 – calcium benzoate is a form of preservative that’s used to lengthen the shelf life
+            of foods and drinks. It’s often found in low sugar products, but it has been linked to side
+            effects in people who have allergic conditions.</item>
+
+        <item>E102 – Tartrazine appears to cause the most allergic and/or intolerance reactions of
+            all the azo dyes, particularly amongst those with an aspirin intolerance and asthmatics.
+            Other reactions can include migraine, blurred vision, itching, rhinitis and purple skin
+            patches, (because of this more use is now being made of Annatto (E160b). In conjunction
+            with Benzoic acid (E210) tartrazine appears to create an over-activity in children.</item>
+
+        <item>E122	Carmoisine, Azorubine It appears to cause allergic and/or intolerance reactions,
+            particularly amongst those with an aspirin intolerance. Other reactions can include a
+            rash similar to nettle rash and water retention. </item>
+
+        <item>E104	Quinoline Yellow used in lipsticks hair products, colognes; also in a wide range
+            of medications; may cause dermatitis. Not recommended for consumption by children. Whilst
+            being a commonly used colour in the UK its use is banned in Australia, Japan, Norway and
+            the United States.</item>
+
+        <item>E107 Yellow 7G It appears to cause allergic and/or intolerance reactions, particularly
+            amongst those with an aspirin intolerance and asthma sufferers. Not recommended for
+            consumption by children. </item>
+
+        <item>E110 Sunset Yellow Side effects are urticaria (hives), rhinitis (runny nose), nasal
+            congestion, allergies, hyperactivity, kidney tumors, chromosomal damage, abdominal pain,
+            nausea and vomiting, indigestion, distaste for food; increased incidence of tumors in animals.
+            Whilst being a commonly used colour in the UK its use is banned in Norway and Finland.</item>
+
+        <item>E120	Cochineal is an expensive red colouring, not suitable for vegetarians as it is
+            extracted from the crushed carcasses of the female Dactylopius coccus, a cactus-feeding
+            scale insect, which are killed by either immersion in hot water or by exposure to sunlight,
+            steam, or the heat of an oven. The variety in the appearance of commercial cochineal is
+            caused by these differing extraction methods. </item>
+
+        <item>E123	Amaranth appears to cause allergic and/or intolerance reactions, similar to nettle
+            rash, particularly amongst those with an aspirin intolerance or asthmatics. can provoke asthma,
+            eczema and hyperactivity; it caused birth defects and foetal deaths in some animal tests,
+            possibly also cancer.Not recommended for consumption by children.
+            It is banned in Norway, United States, Russia and Austria (see E129) with a very restricted
+            use in France and Italy (caviar only).</item>
+
+        <item>E124	Brilliant Scarlet appears to cause allergic and/or intolerance reactions particularly
+            amongst those with an aspirin intolerance or asthmatics. Carcinogen in animals.Not recommended
+            for consumption by children.</item>
+
+        <item>E127	Erythrosine  Because food processing at temperatures above 200°c partly degrades
+            Erythrosine, releasing iodide, there are fears that it could affect thyroid activity, can
+            increase thyroid hormone levels and lead to hyperthyroidism, was shown to cause thyroid cancer
+            in rats in a study in 1990. It is toxic to some strains of yeast cells and is also implicated
+            in phototoxicity (a sensitivity to light).</item>
+
+
+        <item>E128	Red 2G: Concerns that it can interfere with blood haemoglobin. Not recommended for
+            consumption by children.Britain is the only European Union country to use Red 2G and it
+            is also banned in Australia, Austria, Canada, Japan, Norway, Sweden and the United States.</item>
+
+        <item>E131 Patent Blue V: Best avoided by people with allergy reactions as it can cause skin
+            sensitivity, a rash similar to nettle rash, itching, nausea, low blood pressure, tremors
+            and breathing problems.Not recommended for consumption by children.Banned in Australia, USA and Norway. </item>
+
+        <item>E132	Indigo Carmine, Indigotine, FD and kC Blue 2: used in ice cream, sweets, baked goods,
+            confectionery, biscuits.Best avoided by people with allergy reactions as it may cause skin
+            sensitivity, a skin rash similar to nettle rash, itching, high blood pressure and
+            breathing problems. Not recommended for consumption by children. <b>Banned in Norway</b>.</item>
+
+        <item>E142	Green S: It can be used in mint sauce, desserts, gravy granules, sweets, ice creams, and tinned peas.
+            Currently research is ongoing into acceptable intake levels, however it
+            is known to cause hyperactivity, asthma, uticaria, and insomnia.Not recommended for
+            consumption by children.Banned in Canada, Finland, Japan, Norway, Sweden and the United States.</item>
+
+        <item>E154	Brown FK, Kipper Brown:Found mainly in kippers and smoked mackerel but also
+            occasionally in cooked hams and crisps.Not recommended for consumption by children.
+            Banned throughout the EU (except in the UK where its use is still permmitted!)
+            Also prohibited in Australia, Austria, Canada, Finland, Ireland, Japan, Norway, Sweden
+            and the United States. </item>
+
+        <!--Preservatives-->
+
+        <item>E210	Benzoic Acid, Flowers of Benzoin, Phenlycarboxylic Acid and Carboxybenzene:used
+            as an antibacterial and antifungal preservative in acid mediums.Can be found in beer, coffee
+            essence, dessert sauces, soft drinks, flavouring syrups, fruit juice, pulp and purée, jam
+            , margarine, marinated herring and mackerel, pickles, salad cream and dressings, fruit yoghurt,
+            baked goods, cheeses, gum, condiments, frozen dairy, relishes, soft sweets, cordials and
+            sugar substitutes. Also used in cosmetics. When combined with Tartrazine (E102) it provokes
+            a very high hyperactive response in children. Can cause asthma, especially in those dependent
+            on steroid asthma medications, is also reputed to cause neurological disorders and to
+            react with sulphur bisulphite (E222)</item>
+
+        <item>E212	Potassium Benzoate: Can be found in margarine, pickled cucumbers, pineapple juice
+            and table olives. \n People who suffer from asthma, aspirin sensitivity or the skin disease
+            urticaria may have allergic reactions and/or find their symptoms become worse following
+            consumption of benzoic acid, particularly in combination with tartrazine (E102)</item>
+
+        <item>E214	Ethyl 4-hydroxybenzoate:Preservative found in soft drinks, condiments, baked goods,
+            cheese, ice creams, alcoholic drinks, relishes, margarine, salad dressings, medicines and
+            other products.<b>Not recommended for consumption by children.</b>\nNot permitted for use in France and Australia. </item>
+
+        <item>E215	Sodium ethyl 4-hydroxybenzoate: It is used as an antifungal preservative.Not recommended
+            for consumption by children.\nNot permitted for use in France or Australia.</item>
+
+        <item>E216	Propyl 4-hydroxybenzoate: It is a preservative typically found in many water-based
+            cosmetics, such as creams, lotions, shampoos and bath products. As a food additive, it
+            has the E number E216. Not recomended for consumption by children. Possible contact allergen.
+            \nNot permitted for use in France or Australia.</item>
+
+        <item>E217	Sodium propyl 4-hydroxybenzoate: Preservative. \nNot recommended for consumption
+                    by children. Not permitted for use in France or Australia.</item>
+
+        <item>E218	Methyl 4-hydroxybenzoate:Preservative.\nCan cause allergic reactions, particularly
+            to the skin.Not recommended to be consumed by children.\nNot permitted for use in France or Australia.</item>
+
+        <item>E219	Sodium methyl 4-hydroxybenzoate:Not recommended to be consumed by children.
+            The Hyperactive Childrens Support Group belive that a link exists between this additive
+            and hyperactive behavioural disorders in children. \nNot permitted for use in France or Australia.</item>
+
+        <item>E220	Sulphur Dioxide: known to provoke asthma attacks and is difficult to metabolise
+            for those with impaired kidney function. It also <u>destroys</u> vitamins B1 and E.\nTypically found
+            in beers, soft drinks, dried fruit, juices, cordials, wine, vinegar, and potato products.
+            \nNot recommended for consumption by children. </item>
+
+        <item>E221	Sodium Sulphite: used as a decontaminating agent in fresh orange juice, and during
+            sugar refining.May trigger asthma, and <u>destroys</u> vitamins B1 and E.\nNot recommended
+            for consumption by children.</item>
+
+        <item>E222	Sodium hydrogen sulphite, Sodium bisulphite:preservative.May cause an allergic
+            reaction in some people, especially asthmatics.<b>Destroys vitamins B1 and E.</b>\nNot
+            recommended for consumption by children. </item>
+        <item>E223	Sodium Metabisulphite: May cause allergic reactions, particularly skin irritation,
+            gastric irritation and asthma.\nNot recommended for consumption by children.</item>
+
+        <item>E224	Potassium Metabisulphite: Can cause asthma, cyanosis, faintness and even
+            unconsciousness.\nNot recommended to be consumed by children.</item>
+
+        <item>E226	Calcium Sulphite: May cause asthma. A gastric irritant.<u>Destroys vitamins B and E.</u>\n
+            Not recommended for consumption by children.<b>Not permitted in Australia.</b></item>
+
+        <item>E227	Calcium Hydrogen Sulphite: May cause allergic reaction. \nNot recommended for
+            consumption by children.\nNot permitted in australia.</item>
+
+        <item>E230	Biphenyl: It is excreted unaltered by the kidneys. Sensitivity has been reported for people handling
+            large consignments of citrus fruits (ships, trucks).\nUsed for agricultural purposes
+            (an aromatic fungicide), it is a skin and eye irritant.\nBiphenyl is a constituent of the
+            wood preservative creosote.\nNot recommended for consumption by children.</item>
+
+        <item>E231	Orthophenylphenol, 2-hydroxybiphenyl:  this preservative remains on the skins of
+            fruits when they arrive at the retailer.Not recommended for consumption by children.Not
+            permitted in Australia.</item>
+
+        <item>E232	Sodium orthophenylphenol: Not recommended for consumption by children.\nNot permitted
+            in Australia.</item>
+
+        <item>E233	Thiabendazole, 2-(Thiazol-4-yl) benzimidazole: Banned in some countries, it is
+            typically applied to citrus fruits, apples, pears, potatoes, bananas, mushrooms, meat,
+            and milk .</item>
+
+        <item>E239	Hexamethylenetetramine: used as a preservative against fungi in food products such
+            as Caviar, cheese, herring and preserved fish.
+        \nAmongst many others, this substance is utilised as a cross-linking agent for resins,
+            rubber-to-textile adhesive, protein modifier, organic synthesis, pharmaceuticals, an
+            ingredient for explosives, fuel tablets, rubber accelerator, fungicide, corrosion inhibitor,
+            shrink proofing textiles and as an anti-bacterial agent</item>
+
+        <item>E249	Potassium nitrite: It is a potential carcinogen, and is prohibited in foods for
+            infants and young children.
+            </item>
+
+
+        <item>E250	Sodium nitrite: Health effects are acute methemoglobinemia (haemoglobin loses its
+            ability to carry oxygen). Early symptoms include irritability, lack of energy, headache,
+            dizziness, vomiting, diaorrhea, laboured breathing and a blue-gray or pale purple colouration
+            to areas around the eyes, mouth, lips, hands and feet (blue baby syndrome).\nIn severe
+            untreated cases, brain damage and eventually death can result from suffocation due to lack
+            of oxygen. Pregnant women and infants below 3 months should stay away from nitrites.
+            Individuals with digestive difficulties due to reduced stomach acidity are also at higher risk.
+            \nJoint FAO/WHO Expert Committee on Food Additives has established an ADI of 0-0.06mg/kg bw.
+            U.S. Department of Agriculture has the specifications that sodium nitrite content should not
+            exceed 200ppm in finished products. Use of Sodium nitrite is banned in Norway, Sweden, Canada,
+            Germany.</item>
+
+        <item>E251	Sodium nitrate: Sodium nitrate is a salt used extensively as a preservative and
+            colour fixative of processed meats such as sausage and bacon. It is coded as E251 by European Union.
+            \nNitrates by themselves are non-toxic but when added to meat break down into nitrite.
+            The nitrite then reacts with protein to produce N-nitroso compounds which is carcinogenic
+            in test animals, evidence is inconclusive regarding their potential to cause cancer
+            (such as stomach cancer) in humans.</item>
+
+        <item>E252	Potassium nitrate: prolonged exposure to even small quantities may cause anaemia
+            or kidney inflammation, with ingestion of large amounts possibly causing severe abdominal
+            pain and vomiting, muscular weakness, vertigo and irregular pulse.</item>
+        <item>EXXX	XXXXXXXXXXX</item>
+
+
+        <!-- http://www.ukfoodguide.net/bestavoided.htm -->
+
+
+    </string-array>
+
+    <string-array name="headingForBadENumbersArray">
+
+        <!-- this heading arrays should represent qoloquial name for e-number, there should be the
+         same number of items in this array as in the one above (badENumbersCardArray) -->
+        <item>E129 Allura Red AC</item>
+        <item>E621 – monosodium glutamate</item>
+        <item>E951 – aspartame</item>
+        <item>E211 – sodium benzoate</item>
+        <item>E150d Sulphite-ammonia caramel</item>
+        <item>E150c Ammonia caramel</item>
+        <item>E151 – brilliant black BN</item>
+        <item>E133 – brilliant blue FCF</item>
+        <item>E213 – calcium benzoate</item>
+        <item>E102 – tartrazine</item>
+        <item>E122	Carmoisine, Azorubine</item>
+        <item>E104	Quinoline Yellow</item>
+        <item>E107 Yellow 7G</item>
+        <item>E110	Sunset Yellow</item>
+        <item>E120	Cochineal0</item>
+        <item>E123	Amaranth</item>
+        <item>E124	Brilliant Scarlet</item>
+        <item>E127	Erythrosine</item>
+        <item>E128	Red 2G</item>
+        <item>E131 Patent Blue V</item>
+        <item>E132	Indigo Carmine</item>
+        <item>E142	Green S</item>
+        <item>E154	Brown FK</item>
+        <item>E210	Benzoic Acid</item>
+        <item>E212	Potassium Benzoate</item>
+
+        <item>E214	Ethyl 4-hydroxybenzoate</item>
+        <item>E215	Sodium ethyl 4-hydroxybenzoate</item>
+
+        <item>E216	Propyl 4-hydroxybenzoate</item>
+
+        <item>E217	Sodium propyl 4-hydroxybenzoate</item>
+
+        <item>E218	Methyl 4-hydroxybenzoate</item>
+
+        <item>E219	Sodium methyl 4-hydroxybenzoate</item>
+        <item>E220	Sulphur Dioxide</item>
+
+        <item>E221	Sodium Sulphite</item>
+        <item>E222	Sodium hydrogen sulphite</item>
+
+        <item>E223	Sodium Metabisulphite</item>
+        <item>E224	Potassium Metabisulphite</item>
+        <item>E226	Calcium Sulphite</item>
+        <item>E227	Calcium Hydrogen Sulphite</item>
+        <item>E230	Biphenyl</item>
+        <item>E231	Orthophenylphenol</item>
+        <item>E232	Sodium orthophenylpheno</item>
+        <item>E233	Thiabendazole</item>
+        <item>E239	Hexamethylenetetramine</item>
+        <item>E249	Potassium nitrite</item>
+        <item>E250	Sodium nitrite</item>
+        <item>E251	Sodium nitrate</item>
+        <item>E252	Potassium nitrate</item>
+        <item>EXXX	XXXXXXXXXXX</item>
+        <item>EXXX	XXXXXXXXXXX</item>
+    </string-array>
+
+    <string name="test">test  tastatst attsatsa test  tastatst attsatsa test  tastatst attsatsa</string>
+</resources>

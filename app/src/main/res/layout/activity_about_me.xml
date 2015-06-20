@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    tools:context="com.giantturtle.badenumbersquiz.AboutMeActivity"
+    android:background="#ffd4d4d4">
+
+    <TextView
+        android:text="@string/about_me_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/heightLabel"
+        android:textColor="#ff000000" />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_report_mail"
+        android:id="@+id/textView4"
+        android:textSize="18sp"
+        android:layout_below="@+id/heightLabel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/my_other_apps"
+        android:id="@+id/textView5"
+        android:textSize="18sp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:autoLink="all"
+        android:clickable="true"/>
+
+
+<!-- TODO napravi ovde dugme koje vodi do tvojih aplikacija preko intenta
+      i neki savet da drže uključen update aplikacije i isečak sa playStore kako izgleda to -->
+
+
+</RelativeLayout>
