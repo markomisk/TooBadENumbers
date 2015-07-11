@@ -245,160 +245,118 @@ public class DbHelper extends SQLiteOpenHelper {
 
         Question q19=new Question("xxxxxxxxxxxxxxxxxx?","xxxx","xxxxxx","N/A","xxxxxxxx");
         this.putQuestionInDatabase(q19);
-        //Magiski ili magijski?
-        //Pravilno je magijski
+
 
         Question q20=new Question("xxxxxxxxxxxxxxxxxx?","xxxx","xxxxxx","N/A","xxxxxxxx");
         this.putQuestionInDatabase(q20);
-        /* Mašući ili mahajući?
-Pravilno je mašući. */
+
 
         Question q21=new Question("xxxxxxxxxxxxxxxxxx?","xxxx","xxxxxx","N/A","xxxxxxxx");
-        this.putQuestionInDatabase(q1);
-        /* Leptir mašna ili leptir­mašna?
-Pravilno je leptir­mašna.
- */
+        this.putQuestionInDatabase(q21);
+
+
 
         Question q22=new Question("xxxxxxxxxxxxxxxxxx?","xxxx","xxxxxx","N/A","xxxxxxxx");
         this.putQuestionInDatabase(q22);
-        /* Lupio ili lupijo?
-Pravilno je lupio.
-  */
+
 
 
         Question q23=new Question("xxxxxxxxxxxxxxxxxx?","xxxx","xxxxxx","N/A","xxxxxxxx");
         this.putQuestionInDatabase(q23);
-        /* Levak ili levoruk?
-Koriste se oba.  */
+
 
         Question q24=new Question("xxxxxxxxxxxxxxxxxx?","xxxx","xxxxxx","N/A","xxxxxxxx");
         this.putQuestionInDatabase(q24);
-        /* S obzirom na ili obzirom na?
-Pravilno je s obzirom na.
-*/
+
 
 
         Question q25=new Question("xxxxxxxxxxxxxxxxxx?","xxxx","xxxxxx","N/A","xxxxxxxx");
         this.putQuestionInDatabase(q25);
-        /* Objekat ili objekt?
-Koriste se oba  */
 
         Question q26=new Question("xxxxxxxxxxxxxxxxxx?","xxxx","xxxxxx","N/A","xxxxxxxx");
         this.putQuestionInDatabase(q26);
-        /* Oboji ili oboj?
-Koriste se oba.  */
+
 
         Question q27=new Question("xxxxxxxxxxxxxxxxxx?","xxxx","xxxxxx","N/A","xxxxxxxx");
         this.putQuestionInDatabase(q27);
-        /* Pesma Ive Andrića ili pesma od Ive Andrića?
-Koriste se oba.
-  */
+
 
         Question q28=new Question("xxxxxxxxxxxxxxxxxx?","xxxx","xxxxxx","N/A","xxxxxxxx");
         this.putQuestionInDatabase(q28);
-        /* Perpetuum mobile ili perpetum mobile?
-Pravilno je perpetuum mobile.
- */
+
 
         Question q29=new Question("xxxxxxxxxxxxxxxxxx?","xxxx","xxxxxx","N/A","xxxxxxxx");
         this.putQuestionInDatabase(q29);
-        /*  Maršuta ili maršruta?
-Pravilno je maršruta  */
+
 
 
         Question q30=new Question("xxxxxxxxxxxxxxxxxx?","xxxx","xxxxxx","N/A","xxxxxxxx");
         this.putQuestionInDatabase(q30);
-        /*  Penzijski ili penzioni?
-Koriste se oba.  */
+
 
 
         Question q31=new Question("xxxxxxxxxxxxxxxxxx?","xxxx","xxxxxx","N/A","xxxxxxxx");
         this.putQuestionInDatabase(q31);
-        /*  Paljenje ili palenje?
-Pravilno je paljenje.  */
+
 
 
 
         Question q32=new Question("xxxxxxxxxxxxxxxxxx?","xxxx","xxxxxx","N/A","xxxxxxxx");
         this.putQuestionInDatabase(q32);
-        /*  Pančevljanka ili Pančevka?
-Pravlno je Pančevka.
-  */
+
 
 
 
         Question q33=new Question("xxxxxxxxxxxxxxxxxx?","xxxx","xxxxxx","N/A","xxxxxxxx");
         this.putQuestionInDatabase(q33);
-        /*  PS ili P.S.?
-Koriste se oba, preporučuje se P.S. kao skraćenica
-za post skriptum.
-  */
+
 
 
 
         Question q34=new Question("xxxxxxxxxxxxxxxxxx?","xxxx","xxxxxx","N/A","xxxxxxxx");
         this.putQuestionInDatabase(q34);
-        /*  Raženi ili ražani?
-Koriste se oba.
-  */
 
 
 
 
         Question q35=new Question("xxxxxxxxxxxxxxxxxx?","xxxx","xxxxxx","N/A","xxxxxxxx");
         this.putQuestionInDatabase(q35);
-        /* Rasklimatana ili rasklimana?
-Koriste se oba.
-   */
+
 
 
 
         Question q36=new Question("xxxxxxxxxxxxxxxxxx?","xxxx","xxxxxx","N/A","xxxxxxxx");
         this.putQuestionInDatabase(q36);
-        /*  Rang­lista ili rank lista?
-Pravilno je rang­lista.
-  */
+
 
 
         Question q37=new Question("xxxxxxxxxxxxxxxxxx?","xxxx","xxxxxx","N/A","xxxxxxxx");
         this.putQuestionInDatabase(q37);
-        /*  Rajferšlus ili rajsferšlus?
-Pravilno je rajsferšlus.
-  */
+
 
 
         Question q38=new Question("xxxxxxxxxxxxxxxxxx?","xxxx","xxxxxx","N/A","xxxxxxxx");
         this.putQuestionInDatabase(q38);
-        /*  Radije ili rađe?
-Pravilno je radije.
-  */
+
 
         Question q39=new Question("xxxxxxxxxxxxxxxxxx?","xxxx","xxxxxx","N/A","xxxxxxxx");
         this.putQuestionInDatabase(q39);
-        /*  Konjunktivitis ili konjuktivitis?
-Pravilno je konjunktivitis.
-  */
+
 
 
         Question q40=new Question("xxxxxxxxxxxxxxxxxx?","xxxx","xxxxxx","N/A","xxxxxxxx");
         this.putQuestionInDatabase(q40);
-        /*  Kontaktirati ili kontaktovati?
-Pravilno je kontaktirati.
-  */
+
 
 
         Question q41=new Question("xxxxxxxxxxxxxxxxxx?","xxxx","xxxxxx","N/A","xxxxxxxx");
         this.putQuestionInDatabase(q41);
-        /*  Konjuktiv ili konjunktiv?
-Pravilno je konjunktiv.
-  */
+
 
 
         Question q42=new Question("xxxxxxxxxxxxxxxxxx?","xxxx","xxxxxx","N/A","xxxxxxxx");
         this.putQuestionInDatabase(q42);
-        /* Računar ili kompjuter?
-Obe su ispravne ali ne i kompjutor.
-   */
+
 
 
         Question q43=new Question("xxxxxxxxxxxxxxxxxx?","xxxx","xxxxxx","N/A","xxxxxxxx");

@@ -44,12 +44,12 @@ public class MainActivity extends Activity {
 
 
 
-    public void startPripremiSeMethod(View view) {
+    public void startPrepareMethod(View view) {
         Intent intent = new Intent(MainActivity.this,PrepareYourSelfActivity.class);
         startActivity(intent);
     }
 
-    public void josAplikacijaMethod(View view) {
+    public void moreAppsMethod(View view) {
         Intent intent = new Intent(Intent.ACTION_VIEW);
         intent.setData(Uri.parse("market://search?q=2GiantTurtle&c=apps"));//TODO ispitaj ovo da li radi
         startActivity(intent);
