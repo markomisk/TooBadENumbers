@@ -7,14 +7,19 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 
 
-public class MainActivity extends Activity {
+public class MainActivity extends Activity implements View.OnClickListener {
+
+    Button startQuiz, studyPrepare, scoresRankings, moreApps;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        initializeLayout();
+
     }
 
 
@@ -23,6 +28,12 @@ public class MainActivity extends Activity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+
     }
 
     @Override
@@ -43,30 +54,49 @@ public class MainActivity extends Activity {
     }
 
 
+    public void initializeLayout(){
 
-    public void startPrepareMethod(View view) {
-        Intent intent = new Intent(MainActivity.this,PrepareYourSelfActivity.class);
-        startActivity(intent);
+        startQuiz = (Button) findViewById(R.id.quizFragmentActivityButton);
+        startQuiz.setOnClickListener(this);
+
+        studyPrepare = (Button) findViewById(R.id.startPrepareActivityButton);
+        studyPrepare.setOnClickListener(this);
+
+        scoresRankings = (Button) findViewById(R.id.goToRankingListButton);
+        scoresRankings.setOnClickListener(this);
+
+        moreApps = (Button) findViewById(R.id.goToMyPlaystoreButton);
+        moreApps.setOnClickListener(this);
     }
 
-    public void moreAppsMethod(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse("market://search?q=2GiantTurtle&c=apps"));//TODO ispitaj ovo da li radi
-        startActivity(intent);
+    @Override
+    public void onClick(View v) {
+        Intent intent;
+        switch (v.getId()){
+            case R.id.quizFragmentActivityButton:
+                intent = new Intent(MainActivity.this, QuizActiviyWithFragment.class);
+                startActivity(intent);
+                break;
+
+            case R.id.startPrepareActivityButton:
+                intent = new Intent(MainActivity.this,PrepareYourSelfActivity.class);
+                startActivity(intent);
+                break;
+
+            case R.id.goToRankingListButton:
+                intent = new Intent(MainActivity.this, RankingActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.goToMyPlaystoreButton:
+                intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse("market://search?q=2GiantTurtle&c=apps"));//TODO ispitaj ovo da li radi
+                startActivity(intent);
+                break;
+
+        }
 
     }
 
-    public void rangListaMethod(View view) {
-        Intent intent = new Intent(MainActivity.this, RankingActivity.class);
-        startActivity(intent);
-
-    }
-
-    public void goToKvizFragmentActivity(View view) {
-        Intent intent = new Intent(MainActivity.this, QuizActiviyWithFragment.class);
-        startActivity(intent);
-    }
-
-    //TODO pozadina da bude ninepatch slika
+    //TODO background should be ninepatch image
 
 }
