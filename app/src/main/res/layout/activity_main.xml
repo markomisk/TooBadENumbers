@@ -13,7 +13,6 @@
         android:layout_height="wrap_content"
         android:text="@string/prepare_yourself"
         android:id="@+id/startPrepareActivityButton"
-        android:onClick="startPrepareMethod"
         android:layout_marginBottom="10dp"
 
         android:layout_above="@+id/goToRankingListButton"
@@ -24,7 +23,6 @@
         android:layout_height="wrap_content"
         android:text="@string/more_apps"
         android:id="@+id/goToMyPlaystoreButton"
-        android:onClick="moreAppsMethod"
         android:layout_centerVertical="true"
         android:layout_marginBottom="10dp"
 
@@ -35,19 +33,19 @@
         android:layout_height="wrap_content"
         android:text="@string/ranking_list"
         android:id="@+id/goToRankingListButton"
-        android:onClick="rangListaMethod"
         android:layout_marginBottom="10dp"
         android:layout_above="@+id/goToMyPlaystoreButton"
         android:layout_centerHorizontal="true" />
 
     <Button
-        style="@android:style/Holo.Light.SegmentedButton"
+
+        style="@style/MainScreenButton"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/start_quiz"
         android:layout_marginBottom="10dp"
         android:id="@+id/quizFragmentActivityButton"
-        android:onClick="goToKvizFragmentActivity"
         android:layout_above="@+id/startPrepareActivityButton"
         android:layout_centerHorizontal="true" />
 
